@@ -1,0 +1,22 @@
+app-page
+<div>
+    <a [routerLink]="'/'">home</a><br>
+    <a [routerLink]="'/ru'">ru</a><br>
+    <a [routerLink]="'/ua'">ua</a><br>
+    <a [routerLink]="'/ru/information'">ru/information</a><br>
+    <a [routerLink]="'/ua/information'">ua/information</a><br>
+    <a [routerLink]="'/ru/vozvrat'">ru/vozvrat</a><br>
+    <a [routerLink]="'/ua/vozvrat'">ua/vozvrat</a><br>
+    <a [routerLink]="'/ru/iphone-11-pro'">ru/iphone-11-pro</a><br>
+    <a [routerLink]="'/ua/iphone-11-pro'">ua/iphone-11-pro</a><br>
+    <a [routerLink]="'/information'">information</a><br>
+    <a [routerLink]="'/vozvrat'">vozvrat</a><br>
+    <a [routerLink]="'/iphone-11-pro'">iphone-11-pro</a><br>
+</div>
+<hr>
+{{ getLang() }}
+<hr>
+{{ getApiUrlPage() }}
+<hr>
+<pre>{{ data | json }}</pre>
+<hr>
